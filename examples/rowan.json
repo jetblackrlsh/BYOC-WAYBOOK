@@ -1,0 +1,12 @@
+{
+  "schema": "BYOCCharacter",
+  "version": 1,
+  "name": "Rowan",
+  "concept": "A wandering clockwork gardener who grows living bridges.",
+  "personality": "heroic",
+  "stats": {
+    "mind": 1,
+    "body": 0,
+    "special": 1
+  }
+}

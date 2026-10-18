@@ -1,0 +1,41 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> byoc-waybook@1.0.0 test
+> node --test
+
+✔ separate-process CLI can create, play, reload and export a run (540.348945ms)
+✔ all twelve standard stat permutations validate (2.301784ms)
+✔ only heroic prompt is exposed (1.900262ms)
+✔ only villainous prompt is exposed (1.359389ms)
+✔ only chaotic prompt is exposed (0.520203ms)
+✔ success uses actual d6 and threshold four (1.30635ms)
+✔ failure also locks previous stat (1.451977ms)
+✔ approach required but descriptions never affect arithmetic (1.21186ms)
+✔ modifier cap includes base stat and all circumstances (1.962685ms)
+✔ rejection sampling avoids modulo bias (0.663745ms)
+✔ after-roll grant starts next section and expires by visits (1.065763ms)
+✔ before-roll grant applies now and expires on revisits regardless of chosen stat (1.545755ms)
+✔ repeatable grants refresh without stacking copies (0.696264ms)
+✔ exact command retry is idempotent and conflicting IDs reject (0.986506ms)
+✔ invalid commands leave caller state and randomness unchanged (0.798326ms)
+✔ save/resume preserves future rolls, history and content (3.089669ms)
+✔ victory and fatal failure finish an attempt (2.730205ms)
+✔ checkpoint retry restores progress and uses fresh random tape, preserving prior logs (1.657342ms)
+✔ restart clears circumstances/items/stat history and preserves previous attempt logs (0.872116ms)
+✔ character reused in a new adventure starts without session state (0.616286ms)
+✔ adventure rejects missing prompts, bad edges, scripts, no win, duplicate IDs and invalid fatal outcomes (0.855611ms)
+✔ readable and JSON logs preserve approaches and results (0.930542ms)
+✔ classic browser bundle matches the headless core (7.370037ms)
+✔ fresh secure randomness supplies valid independent tapes (1.162066ms)
+✔ explicit sequel carries only requested compatible state (2.243251ms)
+✔ all 216 assignment/stat/die combinations obey the same success formula (64.20449ms)
+✔ twenty varied bounded playthroughs remain valid through save/reload and retries (662.517091ms)
+✔ quit without a checkpoint offers restart but no checkpoint retry (0.667231ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 881.417634
